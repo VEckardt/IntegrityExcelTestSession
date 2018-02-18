@@ -80,6 +80,6 @@ public final class ExportProperties extends ApplicationProperties {
         taskPhaseClosed = getProperty("taskPhaseClosed", "Closed");
         // Other Properties
         allowedTypes = getProperty("allowedTypes", "Doc List");
-        workingDirectory = getProperty("workingDirectory", "Doc List");
+        workingDirectory = getProperty("workingDirectory", "C:\\IntegrityExcelTestSession\\");
     }
 }

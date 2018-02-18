@@ -14,8 +14,8 @@
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="308.0" prefWidth="707.0">
               <children>
-                <Label layoutX="115.0" layoutY="52.0" text="You are going to generate an Excel file for the" />
-                <Label id="lSession" fx:id="lSession1" layoutX="447.0" layoutY="52.0" text="Test Session 9660" />
+                <Label layoutX="115.0" layoutY="54.0" text="You are going to generate an Excel file for the" />
+                <Label id="lSession" fx:id="lSession1" layoutX="447.0" layoutY="54.0" text="Test Session 9660" />
                 <RadioButton fx:id="rbAllTestCases" layoutX="207.0" layoutY="109.0" mnemonicParsing="false" selected="true" text="For all Test Cases in this Session">
                   <toggleGroup>
                     <ToggleGroup fx:id="TCGroup" />
