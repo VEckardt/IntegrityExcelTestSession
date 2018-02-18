@@ -46,4 +46,4 @@ Part 2: Import
 - Java 1.7 (or 1.8)
 
 ## Known Limitations
-- none
+- This local application does not support images to display. The text downloaded is always plain text only.
