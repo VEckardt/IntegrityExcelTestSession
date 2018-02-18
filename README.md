@@ -1,53 +1,43 @@
-# IntegrityCustomGateway
-An alternative starting form for Gateway export client processes, supporting Labels to pick, direct PDF export, pre-defined file name
+# IntegrityExcelTestSession
+This local application offers the download and upload from Integrity Test Sessions into an Excel file. The Tester can take the Excel and enter the results offline, connect then again to Integrity und uploads the results then later.
 
-
-## Purpose
-The CustomGateway is a custom form to execute the Integrity gateway. It offers some very helpful features that were frequently requested by our PTC user community.
-
-![CustomGateway](doc/CustomGateway.PNG)
+![ExcelTestSession](doc/ExcelTestSession.PNG)
 
 ## Use Cases
-- Replaces the Local Gateway form
-- Direct PDF export
-- Easier to handle exports
-- Pre-defined File names
-- Can run on items also (not only documents)
+- Offline Test Result editor
+- Full test session export or just the remainin open test results
 
 ## Install
 Option 1: In IntegrityClient folder
-- Put the "dist/IntegrityCustomGateway.jar" directly into your IntegrityClient folder
-- Copy also the files "dist/lib/IntegrityAPI.jar" and "dist/lib/jfxmessagebox-1.1.0.jar" into your IntegrityClient/lib folder
+- Put the "dist/IntegrityExcelTestSession.jar" directly into your IntegrityClient folder
+- Copy also all the library files from "dist/lib" into your IntegrityClient/lib folder
 - Add a custom menu entry with:
 ```
-name: Custopm Gateway
+name: Excel Test Session
 program:  ../jre/bin/javaw.exe
-parameter: -jar ../IntegrityCustomGateway.jar
+parameter: -jar ../IntegrityExcelTestSession.jar
 ```
 
 Option 2: In a shared folder
 - Take all files from "dist" folder and place them somewhere centrally
 - Register a custom menu as described before, but with the following change
 ```
-parameter: -jar <your shared folder>/IntegrityCustomGateway.jar
+parameter: -jar <your shared folder>/IntegrityExcelTestSession.jar
 ```
 
-## Configuration
-I have implemented two different options to limit the list of possible export configurations
-a) with a property on type level
-Define a custom property on type level
-Name:  Gateway.Configurations
-Value: <Export Configuration1>,<Export Configuration2>,<Export Configuration3>  (Hint: you need to have at least 2 configs listed here)
-
-b) with an additional XML file on server
-t.b.d.
-
-
 ## How to test
-- open any document or just stay on one in the query result
-- click Custom > Custom Gateway
+Part 1: Export
+- open any Test Session or just stay on one in the query result
+- click Custom > Excel Test Session
 - The custom form should open
-- Start the Gateway with a click at the [Generate] button
+- Start the Export with a click at the [Generate] button
+- Then review the outcome
+
+Part 2: Import
+- open any Test Session or just stay on one in the query result
+- click Custom > Excel Test Session
+- The custom form should open
+- Start the Import with a click at the [Load] button
 - Then review the outcome
 
 ##  Development environment
