@@ -25,6 +25,11 @@ Option 2: In a shared folder
 parameter: -jar <your shared folder>/IntegrityExcelTestSession.jar
 ```
 
+## Template
+The Template file (see doc/ExcelTestLayout.xlsx) has to be put into the following directory
+c:\IntegrityExcelTestSession
+This path can be parameterized using the IntegrityExcelTestSession.properties file
+
 ## How to test
 Part 1: Export
 - open any Test Session or just stay on one in the query result
@@ -39,6 +44,12 @@ Part 2: Import
 - The custom form should open
 - Start the Import with a click at the [Load] button
 - Then review the outcome
+
+## Log File
+A log file is written automatically
+Location: %temp%
+File Name: IntegrityExcelTestSession_2018-01-18.log
+This file is valid for a day, then it is written again and gets a new name
 
 ##  Development environment
 - PTC Integrity LM 10.9 (also 11.0 should be fine)
