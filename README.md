@@ -45,11 +45,17 @@ Part 2: Import
 - Start the Import with a click at the [Load] button
 - Then review the outcome
 
-## Log File
+## Log File and Debug
 A log file is written automatically
 - Location: %temp%
 - File Name: IntegrityExcelTestSession_2018-01-18.log
 This file is valid for a day, then it is written again and gets a new name
+
+A debug option is also the following:
+Place the following command into the custom menu:
+- cmd /c ../jar/bin/java -jar <path to jar>/IntegrityExcelTestSession.jar & pause
+
+This will open a DOS window in parallel and any logging will become visible immediately.
 
 ##  Development environment
 - PTC Integrity LM 10.9 (also 11.0 should be fine)
