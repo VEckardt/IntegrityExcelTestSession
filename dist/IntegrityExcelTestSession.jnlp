@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IntegrityExcelTestSession.jnlp">
+  <information>
+    <title>IntegrityExcelTestSession</title>
+    <vendor>veckardt</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="IntegrityExcelTestSession.jar" size="118929" download="eager" />
+    <jar href="lib/IntegrityAPI.jar" size="120863" download="eager" />
+    <jar href="lib/commons-lang3-3.3.2.jar" size="412740" download="eager" />
+    <jar href="lib/dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="lib/jfxmessagebox-1.1.0.jar" size="33430" download="eager" />
+    <jar href="lib/mksapi.jar" size="1404613" download="eager" />
+    <jar href="lib/mksclient.jar" size="148862776" download="eager" />
+    <jar href="lib/poi-3.11-20141221.jar" size="2080419" download="eager" />
+    <jar href="lib/poi-ooxml-3.11-20141221.jar" size="1210980" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.11-20141221.jar" size="5595829" download="eager" />
+    <jar href="lib/xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="IntegrityExcelTestSession" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="integrityexceltestsession.ExcelTestSession"  name="IntegrityExcelTestSession" />
+  <update check="always"/>
+</jnlp>
