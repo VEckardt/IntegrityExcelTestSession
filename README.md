@@ -1,4 +1,4 @@
-# IntegrityExcelTestSession
+# Integrity Excel Test Session
 This local application offers the download and upload from Integrity Test Sessions into an Excel file. The Tester can take the Excel and enter the results offline, connect then again to Integrity und uploads the results then later.
 
 ![ExcelTestSession](doc/ExcelTestSession.png)
