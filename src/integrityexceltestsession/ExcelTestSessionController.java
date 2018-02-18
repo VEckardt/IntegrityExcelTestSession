@@ -178,7 +178,7 @@ public class ExcelTestSessionController extends ExcelTestSessionController2 impl
     public void initialize(URL url, ResourceBundle rb) {
         // Date asOfDate = new Date();
         if (testSessionId == null) {
-            testSessionId = "9160";
+            testSessionId = "630";
         }
         lSession1.setText("Test Session " + testSessionId);
         lSession2.setText("Test Session " + testSessionId);
