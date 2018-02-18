@@ -55,7 +55,7 @@ This file is valid for a day, then it is written again and gets a new name
 
 A debug option is also the following:
 Place the following command into the custom menu:
-- cmd /c ../jar/bin/java -jar "path to jar"/IntegrityExcelTestSession.jar & pause
+- cmd /c ../jre/bin/java -jar "path to jar"/IntegrityExcelTestSession.jar & pause
 
 This will open a DOS window in parallel and any logging will become visible immediately.
 
