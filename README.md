@@ -53,12 +53,12 @@ This file is valid for a day, then it is written again and gets a new name
 
 A debug option is also the following:
 Place the following command into the custom menu:
-- cmd /c ../jar/bin/java -jar <path to jar>/IntegrityExcelTestSession.jar & pause
+- cmd /c ../jar/bin/java -jar "path to jar"/IntegrityExcelTestSession.jar & pause
 
 This will open a DOS window in parallel and any logging will become visible immediately.
 
 ##  Development environment
-- PTC Integrity LM 10.9 (also 11.0 should be fine)
+- PTC Integrity LM 10.9 (also 11.1 is fine)
 - Netbeans 7.4 (or 8)
 - Java 1.7 (or 1.8)
 
