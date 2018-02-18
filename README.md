@@ -27,7 +27,7 @@ parameter: -jar <your shared folder>/IntegrityExcelTestSession.jar
 
 ## Template
 The Template file (see doc/ExcelTestLayout.xlsx) has to be put into the following directory
-c:\IntegrityExcelTestSession
+- c:\IntegrityExcelTestSession
 This path can be parameterized using the IntegrityExcelTestSession.properties file
 
 ## How to test
@@ -47,8 +47,8 @@ Part 2: Import
 
 ## Log File
 A log file is written automatically
-Location: %temp%
-File Name: IntegrityExcelTestSession_2018-01-18.log
+- Location: %temp%
+- File Name: IntegrityExcelTestSession_2018-01-18.log
 This file is valid for a day, then it is written again and gets a new name
 
 ##  Development environment
