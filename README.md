@@ -20,6 +20,7 @@ parameter: -jar ../IntegrityExcelTestSession.jar
 
 Option 2: In a shared folder
 - Take all files from "dist" folder and place them somewhere centrally
+- Copy the files "mksapi.jar" and "mksclient.jar" from your IntegrityClient/lib folder into the lib folder you placed somewhere centrally, replace if nescessary
 - Register a custom menu as described before, but with the following change
 ```
 parameter: -jar <your shared folder>/IntegrityExcelTestSession.jar
